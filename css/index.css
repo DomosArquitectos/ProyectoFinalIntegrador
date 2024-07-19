@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.fondo-index {
+  background-image: url("../imagenes/fondo-index.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fondo-contenido h1 {
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+}
+
+.fondo-contenido p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.content-1 {
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 70px;
+  text-align: center;
+}
+
+.content-2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-around;
+  background-color: silver;
+  padding: 90px 100px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.servicios-item {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.servicios-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+.footer div {
+  width: 30%;
+}
+.footer h3 {
+  margin-bottom: 10px;
+}
+.footer p,
+.footer address {
+  margin: 10px 0;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer .social-icons a {
+  color: #bbb;
+}
+.footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
